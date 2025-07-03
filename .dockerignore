@@ -1,0 +1,12 @@
+# Ambiente virtual
+venv/
+
+# Cache e arquivos compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivo de banco de dados local
+escola.db
+escola.db-journal

@@ -1,0 +1,12 @@
+services:
+  api:
+    build: .
+    container_name: alura_imercao #Nome do container
+    ports:
+      - "8000:8000"
+    volumes:
+      # Monta o diretório atual no contêiner para hot-reloading
+      - .:/app
+    command: uvicorn app:app --host 0.0.0.0 --port 8000 --reload
+
+
