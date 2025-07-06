@@ -1,5 +1,4 @@
 # 1. Imagem base
-# Usamos uma imagem oficial do Python. A tag 'slim' é uma boa escolha por ser leve.
 FROM python:3.10-slim
 
 # 2. Define o diretório de trabalho dentro do contêiner
